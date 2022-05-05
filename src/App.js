@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './app.css'
+import PriceCard from './PriceCard';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <PriceCard title={'ENTRY PACK'} price={'200 USD'} cryptoprice={'0.02 ETH'} content={['3D MODEL REDEEMABLE', '3D MODEL REDEEMABLE']} bgColor={'rgba(251, 255, 255, 0.75)'} shadowColor={'rgba(251, 255, 255, 0.75)'} innerCardColor={'black'} />
+      <PriceCard title={'ENTRY PACK'} price={'200 USD'} cryptoprice={'0.02 ETH'} content={['3D MODEL REDEEMABLE', '3D MODEL REDEEMABLE']} bgColor={'rgba(0, 255, 255, 0.75)'} shadowColor={'rgba(0, 255, 255, 0.75)'} innerCardColor={'black'} />
+      <PriceCard title={'ENTRY PACK'} price={'200 USD'} cryptoprice={'0.02 ETH'} content={['3D MODEL REDEEMABLE', '3D MODEL REDEEMABLE']} bgColor={'black'} textColor={'black'} shadowColor={'black'} innerCardColor={'rgb(244,202,22)'} />
     </div>
   );
 }
