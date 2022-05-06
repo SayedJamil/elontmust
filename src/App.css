@@ -187,3 +187,33 @@ button {
   width: 0.5rem;
   background: black;
 }
+
+.slider {
+  padding: 2rem 0 0 50rem;
+  transform: scale(3.5);
+}
+.sliderBox {
+}
+.sliderComponent {
+}
+.sliderComponent {
+  border-radius: 0 !important;
+}
+.sliderComponent .MuiSlider-markLabel {
+  color: white;
+}
+.sliderComponent .MuiSlider-thumb {
+  border-radius: 0;
+}
+
+.sliderComponent .MuiSlider-mark {
+  margin-top: 3.4px;
+  height: 10px;
+  border-radius: 0 !important;
+}
+
+.sliderComponent .MuiSlider-mark:nth-child(1) {
+  height: 13px;
+  margin-top: 5px;
+  border-radius: 0 !important;
+}
